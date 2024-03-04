@@ -1,0 +1,39 @@
+body{
+  background-color: cadetblue;
+  display: grid;
+  place-items: center;
+}
+
+#LockedContainer{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+
+#num1{
+  color: cadetblue;
+}
+
+#num2{
+  color: cadetblue;
+}
+
+#num3{
+  color: cadetblue;
+}
+
+#num1:hover{
+  transition: 4s;
+  color: black;
+}
+
+#num2:hover{
+  transition: 4s;
+  color: black;
+}
+
+#num3:hover{
+  transition: 4s;
+  color: black;
+}
