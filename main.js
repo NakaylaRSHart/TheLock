@@ -3,34 +3,27 @@ SECURE THE VAULT
 
 1. Create string so user knows when vault is unlocked/locked
 2. Use 3 numbers(variables) for lock code combination.(10-40-39).
-3. Created Diablog box displaying the vault code.
-4. Create a pop up at the start that says "Find the code!"
+3. Use different arithmetic operators to make the combination.
+4. Display that in the Html File.
 
 ***Be SURE TO COMMENT STEPS IN CODE***
 */
 
 //Creating alert to tell user to find the code-------
-alert("Find the Code!");
+alert("You have received this message because you have been chosen to open an important vault. Here is the secret combination");
+// alert("10 40 39");
 
-//Setting combination--------------------------------
-const correctCombo = [10 , 40, 39]
-const number1 = 10;
-const number2 = 40;
-const number3 = 39;
+//Giving values to variables.
+const raw1 = 40;
+const raw2 = 1;
+const raw3 = 4;
 
-//Funciton to get combination------------------------
-function checkCombo(){
-  // Get the entered combination
-const number1 = document.number1('number1');
-const number2 = document.number2('number2');
-const number3 = document.number3('number3');
-}
- 
-//Checking if combination is correct; if it is show unlocked, else show still locked.
+const combo1 = raw1/raw2
+const combo2 = raw1*raw2
+const combo3 = raw2-raw1
 
-if(userAnswer.number1 === correctCombo[0] && number2 === correctCombo[1] && number3 === correctCombo[2]){
-  alert =("result") ('Unlocked!!');
-}
-else{
-  alert =("result")('Incorrect!! Try Again!');
+//Having the combo appear on HTML screen after clicking on the button.
+function togglepopup() {
+  let pupUpWords = document.getElementById(popUpWords);
+  popUpWords.style.display = (popUpWords.style.display === 'none')
 }
