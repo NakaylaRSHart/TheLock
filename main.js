@@ -11,19 +11,18 @@ SECURE THE VAULT
 
 //Creating alert to tell user to find the code-------
 alert("You have received this message because you have been chosen to open an important vault. Here is the secret combination");
-// alert("10 40 39");
 
-//Giving values to variables.
+
+//Giving values to variables. Then using arithamatics.
 const raw1 = 40;
 const raw2 = 1;
 const raw3 = 4;
 
-const combo1 = raw1/raw2
+const combo1 = raw1/raw3
 const combo2 = raw1*raw2
-const combo3 = raw2-raw1
+const combo3 = raw1-raw2
 
 //Having the combo appear on HTML screen after clicking on the button.
-function togglepopup() {
-  let pupUpWords = document.getElementById(popUpWords);
-  popUpWords.style.display = (popUpWords.style.display === 'none')
-}
+//  console.log(combo1+" "+combo2+" "+combo3)
+ 
+ alert(combo1 +" "+ combo2 +" "+ combo3)

@@ -7,17 +7,25 @@
   <script defer src="./main.js"></script>
   <link rel="stylesheet" href="styles.css">
 </head>
-
+<!-- This section of code doesn't currently do anyting with submitted info -->
 <body>
   <header>
-    <h1>Inside this box is the secret code!</h1>
+    <h1>Inside this box you'll need the secret code!</h1>
   </header>
 
-    <button onclick="togglepopup">Open the box!</button>
-    <p id="popUpWords">10, 40, 39</p>
-  
+  <section id="ComboInput">
+    <h3>Please input the secret numbers!</h3>
+    <label for="Secret1"></label>
+    <input type="number" id="num1" name="Combo1">
 
-  </section>
+    <label for="Secret2"></label>
+    <input type="number" id="num2" name="Combo2">
+
+    <label for="Secret3"></label>
+    <input type="number" id="num3" name="Combo3">
+
+    <input type="submit" value="submit">
+  
   </section>
 
 </body>
